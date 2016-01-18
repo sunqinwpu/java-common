@@ -24,7 +24,7 @@ public class DomTest {
     private static Logger logger = LogManager.getLogger(DomTest.class);
 
     /**
-     * ²âÊÔ
+     * ²âÊÔDOM½âÎöXML
      */
     @Test
     public void testDomParse() {

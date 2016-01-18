@@ -24,5 +24,6 @@ public class SAXTest {
     public void testSaxParse() {
         InputStream inputStream = DomTest.class.getClassLoader().getResourceAsStream(
             "xml/books.xml");
+        
     }
 }

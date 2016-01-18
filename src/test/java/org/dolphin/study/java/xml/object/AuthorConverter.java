@@ -1,7 +1,3 @@
-/**
- * Alipay.com Inc.
- * Copyright (c) 2004-2015 All Rights Reserved.
- */
 package org.dolphin.study.java.xml.object;
 
 import com.thoughtworks.xstream.converters.SingleValueConverter;
