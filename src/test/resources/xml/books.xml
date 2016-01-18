@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+	<book id="001">
+		<title>野心时代</title>
+		<author>Evan Osnos</author>
+	</book>
+	<book id="002">
+		<title>禅者的初心</title>
+		<author>铃木俊隆</author>
+	</book>
+</books>
