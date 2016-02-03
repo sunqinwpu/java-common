@@ -20,5 +20,4 @@ public class AuthorConverter implements SingleValueConverter {
     public boolean canConvert(Class type) {
         return type.equals(Author.class);
     }
-
 }
