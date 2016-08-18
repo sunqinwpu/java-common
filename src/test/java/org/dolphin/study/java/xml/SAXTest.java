@@ -19,20 +19,20 @@ import org.xml.sax.helpers.DefaultHandler;
 /**
  *
  * @author sunqi
- * @version $Id: SAXTest.java, v 0.1 2016Äê1ÔÂ18ÈÕ ÏÂÎç11:17:22 sunqi Exp $
+ * @version $Id: SAXTest.java, v 0.1 2016ï¿½ï¿½1ï¿½ï¿½18ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½11:17:22 sunqi Exp $
  */
 public class SAXTest {
     /** */
     private static Logger logger = LogManager.getLogger(DomTest.class);
 
     /**
-     * ²âÊÔSAX½âÎöXML
+     * ï¿½ï¿½ï¿½ï¿½SAXï¿½ï¿½ï¿½ï¿½XML
      */
     @Test
     public void testSaxParse() {
         try {
             InputStream inputStream = DomTest.class.getClassLoader().getResourceAsStream(
-                "xml/books.xml");
+                "xml/booksll.xml");
             SAXParserFactory factory = SAXParserFactory.newInstance();
             SAXParser parser = factory.newSAXParser();
             parser.parse(inputStream, new BooksHandler());
@@ -45,7 +45,7 @@ public class SAXTest {
 /**
  *
  * @author sunqi
- * @version $Id: SAXTest.java, v 0.1 2016Äê1ÔÂ19ÈÕ ÏÂÎç3:52:36 sunqi Exp $
+ * @version $Id: SAXTest.java, v 0.1 2016ï¿½ï¿½1ï¿½ï¿½19ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½3:52:36 sunqi Exp $
  */
 class BooksHandler extends DefaultHandler {
     /** */
