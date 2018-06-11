@@ -1,5 +1,6 @@
 package org.dolphin.study.java.asm;
 
+<<<<<<< HEAD
 import org.junit.Test;
 import org.objectweb.asm.*;
 import org.objectweb.asm.ClassReader;
@@ -10,6 +11,18 @@ import org.objectweb.asm.tree.MethodNode;
 import java.io.*;
 import java.util.List;
 
+=======
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.util.List;
+
+import org.junit.Test;
+import org.objectweb.asm.*;
+import org.objectweb.asm.tree.ClassNode;
+import org.objectweb.asm.tree.MethodNode;
+
+>>>>>>> ae7290b53f1ebbcb0d71ffe8ab60ab1d6e5e5f89
 /**
  * Created by qi.sun on 2018/5/8.
  */
